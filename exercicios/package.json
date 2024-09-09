@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "prettier": "^3.3.3"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "eslint": "^9.10.0"
+  }
+}

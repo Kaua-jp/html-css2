@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to left, #404086, #3b3b5c);
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+}
+
+h2 {
+    color: #2a2a33;
+    font: bold 2em 'Work Sans';
+}
+
+h1 {
+    color: #2a2a33;
+    font:
+        italic bolder 3em 'Work Sans',
+        sans-serif;
+}
+
+p {
+    color: #292933;
+}
