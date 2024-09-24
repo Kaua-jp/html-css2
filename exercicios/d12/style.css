@@ -1,103 +1,23 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Salsa&display=swap');
-
-body {
-  color: white;
-  height: 100%;
+* {
   margin: 0;
-  overflow-x: hidden;
+  padding: 0;
 }
 
-h1 {
-  font-size: 40px;
+html,
+body {
+  min-width: 100vh;
+  background-color: darkgray;
 }
 
-#caixa01 {
-  color: white;
-  font-family: 'Oswald', sans-serif;
-  font-weight: bold;
-  background-color: black;
-  text-align: center;
-  padding: 10px;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
-
-a:hover {
-  color: green;
-  text-decoration: underline;
-}
-
-.nadireita {
-  position: relative;
-  font-size: normal;
-  padding-left: 20px;
-  top: 2vh;
-  width: 28vh;
-  line-height: 3em;
-  justify-content: justify;
-}
-
-@media (max-width: 768px) {
-  .nadireita {
-    position: relative;
-    padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    font-size: 10px;
-    top: 2vh;
-    width: 28vh;
-    line-height: 3em;
-    justify-content: justify;
-  }
-}
-
-.branca {
-  color: rgba(255, 255, 255, 0.767);
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.4);
-  top: 28%;
-  min-width: 15%;
-  max-width: 40%;
-}
-
-#fundo01 {
-  position: relative;
-  background-image: url(pacote-d012/imagens/background001.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 100%;
-  height: 10vh;
-  padding-bottom: 35em;
-}
-
-#fundo02 {
-  background-image: url(pacote-d012/imagens/background002.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 100%;
-  height: 10vh;
-  padding-bottom: 35em;
-}
-
-h2 {
-  font-family: 'Salsa', cursive;
-  padding-top: 10px;
-}
-
-article {
-  position: relative;
-  top: 10vh;
-  text-align: center;
+header {
   background-color: black;
   color: white;
+  text-align: center;
+}
+
+header > h1 {
+  padding-top: 50px;
+  text-transform: uppercase;
 }
