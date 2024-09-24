@@ -10,7 +10,6 @@ body {
 }
 
 h1 {
-  margin-bottom: 0;
   font-size: 40px;
 }
 
@@ -21,7 +20,6 @@ h1 {
   background-color: black;
   text-align: center;
   padding: 10px;
-  padding-bottom: 25px;
 }
 
 a {
@@ -36,12 +34,26 @@ a:hover {
 
 .nadireita {
   position: relative;
+  font-size: normal;
   padding-left: 20px;
-  padding-bottom: 50px;
-  top: 10vh;
+  top: 2vh;
   width: 28vh;
   line-height: 3em;
   justify-content: justify;
+}
+
+@media (max-width: 768px) {
+  .nadireita {
+    position: relative;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 10px;
+    top: 2vh;
+    width: 28vh;
+    line-height: 3em;
+    justify-content: justify;
+  }
 }
 
 .branca {
@@ -72,8 +84,19 @@ a:hover {
   padding-bottom: 35em;
 }
 
+@media (max-width: 768px) {
+  .branca {
+    color: rgba(255, 255, 255, 0.767);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 25%;
+    width: 30vh;
+  }
+}
+
 h2 {
   font-family: 'Salsa', cursive;
+  padding-top: 10px;
 }
 
 article {
